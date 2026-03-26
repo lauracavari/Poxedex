@@ -66,7 +66,7 @@ $(document).ready(function () {
             }
 
             let pokeHTML = `
-                    <div class="pokemon col-2 type-${pokemonDetails.types[0].type.name}">
+                    <div class="pokemon col-lg-3 col-md-4 col-sm-12 type-${pokemonDetails.types[0].type.name}">
                         <div class="card">
                             <img src="${pokemonDetails.sprites.front_default}" class="card-img-top p-3" alt="...">
                             <div class="card-body">
